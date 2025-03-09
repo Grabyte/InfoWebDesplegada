@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="imagenes/logo.png" >
+    <title>Proyecto-Final</title>
+</head>
+<body class="body-day" onscroll="navChange()">
+    <nav>
+        <a href='/'>
+            <svg  width="200" height="90" >
+                <rect x="45" y="5" width="80" height="50"  class="mon1" fill="#767a81de" stroke="#2F3645" stroke-width="2"></rect>
+                <rect x="50" y="10" width="70" height="40"  class="mon2" fill="#000000" stroke="#2F3645" stroke-width="2"></rect>
+                <rect x="75" y="55" width="20" height="10"  class="mon1" fill="#767a81de" strok="#2F3645" stroke-width="2"></rect>
+
+                <polygon points="50 70,120 70 ,130 80,40 80" fill="#767a81de" strok="#2F3645" stroke-width="2" class="mon1" stroke="#2F3645" stroke-width="2"></polygon>
+                <polygon points="55 72,115 72  ,122 78,48 78" fill="#000000" class="mon2" stroke="#2F3645" ></polygon>
+
+                <line x1="55" y1="19" x2="100" y2="19" stroke="transparent" stroke-width="3" class="cod"></line>
+                <line x1="55" y1="24" x2="100" y2="24" stroke="transparent" stroke-width="3" class="cod"></line>
+                <line x1="55" y1="29" x2="70" y2="29" stroke="transparent" stroke-width="3" class="cod"></line>
+
+                <line x1="55" y1="33" x2="115" y2="33" stroke="transparent" stroke-width="3" class="cod"></line>
+                <line x1="55" y1="38" x2="115" y2="38" stroke="transparent" stroke-width="3" class="cod"></line>
+            </svg>
+            </a>
+        <ul class="menu">
+            <li class="item-menu"><a class='item-link' href='index.html'>HOME</a></li>
+            <li class="item-menu"><a class='item-link' href='historia.html'>HISTORIA</a></li>
+        </ul>
+    </nav>
+    <header id="header-3">
+        <h1 class="titulo-blanco fondo-azul" > JUGUEMOS UN POCO</h1> 
+        
+    </header>
+
+    <main>
+    <h2 class="espacio-titulo">Armemos el rompecabezas y veamos que imagen es...</h2>
+        <section class="juego">
+            <div class="cajas" >
+                <div class="caja" id="cajasoltar">
+                    <p>Arrastre y suelte la imágen aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar2">
+                    <p>Arrastre y suelte la imágen aquí</p>
+                </div>
+                <div class="caja" id="cajasoltar3">
+                    <p>Arrastre y suelte la imágen aquí</p>
+                </div>
+            </div>
+            <div id="cajaimagenes" >
+                <img id="imagen1" src="imagenes/rompe2.png" alt="imagen-rompecabezas" />
+                <img id="imagen2" src="imagenes/Rompe1.png" alt="imagen-rompecabezas" />
+                <img id="imagen3" src="imagenes/Rompe3.png" alt="imagen-rompecabezas" />
+            </div>
+        </section>
+        <button onclick="reinicio()" class="botonesVideo reinicio" >Reiniciar</button>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <img class="logo" src="imagenes/logo.png" alt="logo ">
+            <h3 class="titulo-blanco titulo-foot">PROGRAMACION <br> E <br> HISTORIA </h3>
+        </div>
+        <div>Sitio con fines educativos - Creado por M.V.L y Ricardo Torrena</div>
+    </footer>
+    <script src="./script1.js"></script>
+    <script src="./script3.js"></script>
+</body>
+</html>
