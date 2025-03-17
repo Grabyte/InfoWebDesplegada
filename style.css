@@ -409,3 +409,74 @@ footer{
     text-transform: uppercase;
     font-weight: 300;
 }
+
+/* Estilos para tablets (pantallas menores o iguales a 768px) */
+@media (max-width: 768px) {
+    nav {
+        padding: 20px;
+        text-align: center;
+    }
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .cont-padre {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .caja {
+        width: 30vw; /* Ancho relativo al viewport */
+        height: auto; /* Altura automática */
+        aspect-ratio: 275 / 400; /* Relación de aspecto */
+    }
+
+    #imagen1, #imagen2, #imagen3 {
+        width: 30vw;
+        aspect-ratio: 275 / 400;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 40px;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    .boton-ver {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+    }
+    .botonera {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .reinicio {
+        padding: 10px 40px;
+    }
+    nav {
+        padding: 10px;
+    }
+    .menu {
+        align-items: center;
+    }
+    .item-link {
+        font-size: 1.2em;
+    }
+}
