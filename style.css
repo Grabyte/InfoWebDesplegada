@@ -398,6 +398,10 @@ footer{
     width: 275px;
     height: 400px;
 }
+
+#cajaimagenes img, .caja img {
+    touch-action: none;
+}
 .reinicio{
     display: flex;
     margin: auto;
